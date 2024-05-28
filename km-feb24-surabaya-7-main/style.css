@@ -654,9 +654,9 @@ MEDIA QUERY
     grid-template-columns: 1fr 1fr 1fr;
   }
   .country {
-    width: 33.33%;
+    width: 100%;
   }
   .footer-main {
-    width: 80%;
+    width: 10%;
   }
 }
