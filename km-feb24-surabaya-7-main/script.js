@@ -113,7 +113,7 @@ fetch('JSON Dashboard/revenue.json')
         })
         .catch(error => console.error(error));
 
-        fetch('JSON Dashboard/mpq.json')
+        fetch('JSON Dashboard/.json')
         .then(response => response.json())
         .then(data => {
           const limitedData = data.slice(0, 7);
