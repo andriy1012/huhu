@@ -478,72 +478,28 @@ footer{
 MEDIA QUERY
 ****************/
 
-@media screen and (max-width:1200px) {
-  .container{
-    width: 70%;
-    grid-template-columns: 7rem auto 14rem;
+@media only screen and (min-width: 1025px) {
+  /* Adjust layout for desktop devices */
+  .container {
+    grid-template-columns: 1fr 1fr 1fr;
   }
-  aside .sidebar h3{
-    display: none;
+  aside {
+    width: 20%;
+    height: auto;
   }
-  aside .sidebar a{
-    width: 5.6rem;
+  .charts {
+    grid-template-columns: 1fr 1fr 1fr;
   }
-  aside .sidebar a:last-child{
-    position: relative;
-    margin-top: 1.8rem;
+  main {
+    width: 60%;
   }
-  main .insights{
-    display: grid;
-    grid-template-columns: repeat(6,1fr);
+  .insights {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .country {
+    width: 33.33%;
+  }
+  .footer-main {
+    width: 80%;
   }
 }
-
-/* ****************
-MEDIA QUERY PHONE
-************************/
-
-@media screen and (max-width:768px) {
-.container{
-  width: 100%;
-  grid-template-columns: repeat(6,1fr);
-
-}
-
-aside{
-  position: fixed;
-  width: 18rem;
-  z-index: 3;
-  height: 100vh;
-  background-color: var(--clr-white);
-  display: none;
-  left: -110px;
-  animation:  menuLeft .3s ease forwards;
-}
-
-@keyframes menuLeft {
-    to{
-      left: 0;
-    }
-}
-
-
-
-
-aside .logo h2{
-     display: inline;
-}
-aside .sidebar h3{
-  display: inline;
-}
-aside .sidebar a{
-  width: 80%;
-  height: 3.4rem;
-}
-aside .top div.close  span{
-   display: inline;
-   position: absolute;
-   right: 0;
-   margin-right:30px;
-   font-size: 35px;
-   cursor: pointer;}
