@@ -640,9 +640,15 @@ MEDIA QUERY
   .container {
     grid-template-columns: 1fr 1fr 1fr;
   }
-  aside {
-    width: 100%;
-    height: auto;
+  aside .sidebar h3{
+      display: none;
+    }
+    aside .sidebar a{
+      width: 5.6rem;
+    }
+    aside .sidebar a:last-child{
+      position: relative;
+      margin-top: 1.8rem;
   }
   .charts {
     grid-template-columns: 1fr 1fr 1fr;
