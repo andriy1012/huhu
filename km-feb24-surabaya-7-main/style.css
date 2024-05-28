@@ -489,7 +489,7 @@ MEDIA QUERY
     position: fixed;
     width: 18rem;
     z-index: 3;
-    height: 100vh;
+    height: 100%;
     background-color: var(--clr-white);
     display: none;
     left: -110px;
