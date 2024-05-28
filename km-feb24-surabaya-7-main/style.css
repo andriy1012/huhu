@@ -25,7 +25,8 @@
   --box-shadow: 0 2rem 3rem var(--clr-light);
 
 }
-
+html {
+  --zoom-level: normal;
 
 *{
   margin: 0;
