@@ -129,7 +129,6 @@ small{
   background: #ecf2f8;
   display: flex;
   flex-direction: column;
-  height: 155%;
   position: relative;
   top: 1rem;
  }
