@@ -114,7 +114,6 @@ small{
   background: #ecf2f8;
   display: flex;
   flex-direction: column;
-  height: 86vh;
   position: relative;
   top: 1rem;
  }
