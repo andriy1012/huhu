@@ -17,8 +17,6 @@ function closeSidebar() {
 }
 
 
-document.body.style.zoom="100%"
-
 
 
 fetch('JSON Dashboard/revenue.json')
