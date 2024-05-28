@@ -26,7 +26,7 @@
 
 }
 html {
-  --zoom-level: normal;
+  --zoom-level: 100%;
 
 *{
   margin: 0;
