@@ -47,20 +47,6 @@ body{
    font-family: 'Poppins', sans-serif;
 }
 
-.header {
-  grid-area: header;
-  height: 2px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 10px 0 10px;
-
-}
-
-.menu-icon {
-  display: none;
-}
-
 .container  {
   display: grid;
   width: 96%;
