@@ -317,7 +317,7 @@ MEDIA QUERY PHONE
 
 @media screen and (max-width:768px) {
   .container{
-    width: 100%;
+    width: 60%;
     grid-template-columns: repeat(1,1fr);
   
   }
@@ -326,7 +326,6 @@ MEDIA QUERY PHONE
     position: fixed;
     width: 18rem;
     z-index: 3;
-    height: 100vh;
     background-color: var(--clr-white);
     display: none;
     left: -110px;
