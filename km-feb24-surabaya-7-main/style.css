@@ -495,13 +495,6 @@ MEDIA QUERY
     left: -110px;
     animation:  menuLeft .3s ease forwards;
   }
-  
-  @keyframes menuLeft {
-      to{
-        left: 0;
-      }
-  }
-  
   aside .logo h2{
        display: inline;
   }
