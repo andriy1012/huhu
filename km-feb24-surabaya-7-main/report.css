@@ -236,7 +236,7 @@ MEDIA QUERY
 
 @media screen and (max-width:1200px) {
     .container{
-      width: 94%;
+      width: 60%;
       grid-template-columns: 7rem auto 14rem;
     }
     aside .sidebar h3{
@@ -270,7 +270,7 @@ MEDIA QUERY PHONE
     position: fixed;
     width: 18rem;
     z-index: 3;
-    height: 100vh;
+    height: 100%;
     background-color: var(--clr-white);
     display: none;
     left: -110px;
