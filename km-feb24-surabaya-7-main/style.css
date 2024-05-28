@@ -467,7 +467,7 @@ MEDIA QUERY
 @media screen and (max-width:768px) {
 .container{
     width: 60%;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(6,1fr);
   
   }
   
