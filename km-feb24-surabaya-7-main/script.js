@@ -17,7 +17,7 @@ function closeSidebar() {
 }
 
 
-
+document.body.style.zoom="100%"
 
 
 
