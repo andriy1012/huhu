@@ -466,7 +466,7 @@ MEDIA QUERY
 
 @media screen and (max-width:768px) {
   .container{
-    width: 40%;
+    width: 60%;
     grid-template-columns: repeat(1,1fr);
   
   }
@@ -475,7 +475,6 @@ MEDIA QUERY
     position: fixed;
     width: 18rem;
     z-index: 3;
-    height: 100%;
     background-color: var(--clr-white);
     display: none;
     left: -110px;
