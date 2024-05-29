@@ -477,9 +477,35 @@ footer{
 MEDIA QUERY
 ****************/
 
-@media screen and (max-width:1440px) {
+
+@media screen and (max-width:1200px) {
+    .container{
+      width: 94%;
+      grid-template-columns: 7rem auto 14rem;
+    }
+    aside .sidebar h3{
+      display: none;
+    }
+    aside .sidebar a{
+      width: 5.6rem;
+    }
+    aside .sidebar a:last-child{
+      position: relative;
+      margin-top: 1.8rem;
+    }
+    main .insights{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+    }
+}
+
+/* ****************
+MEDIA QUERY PHONE
+************************/
+
+@media screen and (max-width:768px) {
   .container{
-    width: 50%;
+    width: 60%;
     grid-template-columns: repeat(1,1fr);
   
   }
@@ -488,11 +514,22 @@ MEDIA QUERY
     position: fixed;
     width: 18rem;
     z-index: 3;
+    height: 100vh;
     background-color: var(--clr-white);
     display: none;
     left: -110px;
     animation:  menuLeft .3s ease forwards;
   }
+  
+  @keyframes menuLeft {
+      to{
+        left: 0;
+      }
+  }
+  
+
+
+
   aside .logo h2{
        display: inline;
   }
@@ -511,4 +548,15 @@ MEDIA QUERY
      font-size: 35px;
      cursor: pointer;
   }
+
+
+  footer{
+  padding: 20px;
+  margin-left: 2rem;
+  justify-content: center;
+ position: fixed;
+}
+footer p{
+  color: color(srgb red green blue);
+  font-size: 100px ;
 }
