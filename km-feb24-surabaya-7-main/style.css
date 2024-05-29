@@ -477,9 +477,9 @@ footer{
 MEDIA QUERY
 ****************/
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1440px) {
   .container{
-    width: 60%;
+    width: 50%;
     grid-template-columns: repeat(1,1fr);
   
   }
